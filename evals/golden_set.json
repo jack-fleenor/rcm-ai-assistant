@@ -1,0 +1,26 @@
+[
+  {
+    "case_id": "den-001",
+    "expect": {
+      "priority": "high",
+      "needs_clinical_review": false,
+      "denial_category_contains": ["auth", "authorization", "precert"]
+    }
+  },
+  {
+    "case_id": "den-002",
+    "expect": {
+      "priority": "high",
+      "needs_clinical_review": true,
+      "denial_category_contains": ["medical", "necessity", "coverage"]
+    }
+  },
+  {
+    "case_id": "den-003",
+    "expect": {
+      "priority": "medium",
+      "needs_clinical_review": false,
+      "denial_category_contains": ["coding", "modifier", "code"]
+    }
+  }
+]

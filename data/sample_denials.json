@@ -1,0 +1,26 @@
+[
+  {
+    "id": "den-001",
+    "payer": "Aetna",
+    "cpt": "64483",
+    "denial_code": "CO-197",
+    "denial_reason": "Precertification/authorization absent",
+    "notes": "ESI lumbar requested. Auth submitted late; DOS already occurred. Patient MRN REDACTED."
+  },
+  {
+    "id": "den-002",
+    "payer": "UHC",
+    "cpt": "62323",
+    "denial_code": "CO-50",
+    "denial_reason": "Non-covered service / medical necessity",
+    "notes": "Conservative therapy duration not documented in chart excerpt. Phone 555-010-9999 should not appear in LLM context."
+  },
+  {
+    "id": "den-003",
+    "payer": "Medicare",
+    "cpt": "99214",
+    "denial_code": "CO-4",
+    "denial_reason": "Procedure code inconsistent with modifier or patient age/sex",
+    "notes": "Modifier -25 billed with procedure same day. Likely coding review, not clinical."
+  }
+]
